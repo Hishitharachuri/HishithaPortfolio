@@ -8,7 +8,7 @@ const contact = [
     { src: github, alt: "GitHub", link: "https://github.com/Hishitharachuri" },
     { src: linkedin, alt: "LinkedIn", link: "https://www.linkedin.com/in/hishitha-rachuri-3b3316231/" },
     { src: mail, alt: "Email", link: "mailto:hishitharachuri@gmail.com" },
-    { src: Resume, alt: "Resume", link: "public/Hishitha's_resume (2).pdf" }
+    { src: Resume, alt: "Resume", link: "/Hishitha's_resume (2).pdf" }
 ];
 
 export default function Contact() {
