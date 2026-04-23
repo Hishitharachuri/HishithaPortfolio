@@ -34,14 +34,6 @@ export default function Home() {
                         times by up to <strong>40%</strong> through performance tuning.
                     </p>
 
-                    {/* Quick Stats Row */}
-                    <div className="hero-stats">
-                        <div className="stat">
-                            <h3>3+</h3>
-                            <p>Years Experience</p>
-                        </div>
-                    </div>
-
                     <div className="hero-buttons">
                         <a href="#projects" className="hero-button">View Portfolio</a>
                         <a href="/resume.pdf" className="hero-button outline" download>

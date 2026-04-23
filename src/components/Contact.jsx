@@ -4,8 +4,8 @@ import linkedin from "../assets/LinkedIn.png";
 import mail from "../assets/mail.png";
 
 const contact = [
-    { src: github, alt: "GitHub", link: "https://github.com/hishitha-rachuri" },
-    { src: linkedin, alt: "LinkedIn", link: "https://linkedin.com/in/hishitha-rachuri" },
+    { src: github, alt: "GitHub", link: "https://github.com/Hishitharachuri" },
+    { src: linkedin, alt: "LinkedIn", link: "https://www.linkedin.com/in/hishitha-rachuri-3b3316231/" },
     { src: mail, alt: "Email", link: "https://mail.google.com/mail/?view=cm&fs=1&to=hishithrachuri@gmail.com" },
 ];
 
