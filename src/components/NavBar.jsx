@@ -9,7 +9,7 @@ function NavBar() {
       {/* Left side: Portfolio name */}
       <span className="nav-user">Hishitha's Portfolio</span>
 
-      {/* Hamburger toggle (only shows on mobile) */}
+      {/* Hamburger toggle (inline with portfolio name) */}
       <button
         className="hamburger"
         onClick={() => setIsOpen(!isOpen)}

@@ -21,7 +21,7 @@ body {
   background-color: #1e293b;
   padding: 16px 32px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* portfolio left, hamburger right */
   align-items: center;
 }
 
@@ -37,15 +37,13 @@ body {
   border: none;
   color: #f3f4f6;
   cursor: pointer;
-  display: none; 
-  align-items: center/* hidden on desktop */
+  display: none; /* hidden on desktop */
 }
 
 .nav-list {
   list-style: none;
   display: flex;
   gap: 24px;
-  align-items: center;
 }
 
 .nav-link {
@@ -63,8 +61,7 @@ body {
 /* Mobile view */
 @media (max-width: 768px) {
   .hamburger {
-    display: block;
-    margin-left: auto /* show hamburger on mobile */
+    display: block; /* show hamburger inline with portfolio */
   }
 
   .nav-list {
@@ -72,23 +69,11 @@ body {
     flex-direction: column;
     gap: 12px;
     margin-top: 16px;
+    align-items: flex-end; /* align links to the right */
   }
 
   .nav-list.open {
     display: flex; /* show vertically when open */
-  }
-}
-
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;     /* stack brand + links vertically */
-    align-items: flex-start;    /* align to the left */
-  }
-
-  .nav-list {
-    flex-direction: column;     /* stack links vertically */
-    gap: 12px;
-    margin-top: 16px;
   }
 }
 
