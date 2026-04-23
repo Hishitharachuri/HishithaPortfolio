@@ -1,5 +1,6 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import "../App.css";
+import workImage from "../assets/work_3.png";
 
 export default function Home() {
     const [text] = useTypewriter({
@@ -52,7 +53,7 @@ export default function Home() {
                 {/* RIGHT SIDE: IMAGE */}
                 <img
                     className="work-image"
-                    src={"../assets/work_3.png"}
+                    src={workImage}
                     alt="Hishitha Rachuri - Full Stack Developer"
                 />
             </div>
