@@ -1,6 +1,6 @@
 import "../App.css";
 import github from "../assets/github.png";
-import linkedin from "../assets/linkedIn.png";
+import linkedin from "../assets/LinkedIn.png";
 import mail from "../assets/mail.png";
 
 const contact = [
