@@ -20,6 +20,7 @@ body {
 .navbar {
   background-color: #1e293b;
   padding: 16px 32px;
+<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,6 +39,11 @@ body {
   color: #f3f4f6;
   cursor: pointer;
   display: none; /* hidden on desktop */
+=======
+  display: flex;              
+  justify-content: space-between;
+  align-items: center;
+>>>>>>> 83cb6606a9145597db6d5d05bd8a1e226e8fc623
 }
 
 .nav-list {
@@ -76,6 +82,18 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;     /* stack brand + links vertically */
+    align-items: flex-start;    /* align to the left */
+  }
+
+  .nav-list {
+    flex-direction: column;     /* stack links vertically */
+    gap: 12px;
+    margin-top: 16px;
+  }
+}
 
 
 
