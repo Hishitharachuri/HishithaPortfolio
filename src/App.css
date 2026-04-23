@@ -20,39 +20,63 @@ body {
 .navbar {
   background-color: #1e293b;
   padding: 16px 32px;
-  flex:1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-user {
+  font-weight: 800;
+  font-size: 22px;
+  color: #f3f4f6;
+}
+
+.hamburger {
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  color: #f3f4f6;
+  cursor: pointer;
+  display: none; /* hidden on desktop */
 }
 
 .nav-list {
   list-style: none;
   display: flex;
-  align-items: center;
   gap: 24px;
 }
 
-.nav-user {
-  margin-right: auto;
-  color: white;
-  font-weight: 800;
-  font-size: 22px;
-}
-
 .nav-link {
-  color: white;
+  color: #f3f4f6;
   text-decoration: none;
   padding: 6px 10px;
   border-radius: 6px;
   transition: background 0.2s ease;
-  display:flex;
 }
 
 .nav-link:hover {
   background-color: #465c7a;
 }
 
-.nav-link.active {
-  background-color: #0284c7;
+/* Mobile view */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block; /* show hamburger on mobile */
+  }
+
+  .nav-list {
+    display: none; /* hide links by default */
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 16px;
+  }
+
+  .nav-list.open {
+    display: flex; /* show vertically when open */
+  }
 }
+
+
 
 
 .hero-section {
@@ -295,6 +319,7 @@ body {
 .heading{
   margin-bottom:10px;
   margin-top: 10px;
+  align-items: center;
 
 }
 
