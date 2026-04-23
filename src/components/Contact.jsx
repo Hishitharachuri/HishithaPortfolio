@@ -1,29 +1,31 @@
 import "../App.css";
 import github from "../assets/github.png";
-import linkedin from "../assets/LinkedIn.png";
+import linkedin from "../assets/linkedin.png";
 import mail from "../assets/mail.png";
-import Resume from "../assets/Resume.png"
 
 const contact = [
-    { src: github, alt: "GitHub", link: "https://github.com/Hishitharachuri" },
-    { src: linkedin, alt: "LinkedIn", link: "https://www.linkedin.com/in/hishitha-rachuri-3b3316231/" },
+    { src: github, alt: "GitHub", link: "https://github.com/hishitha-rachuri" },
+    { src: linkedin, alt: "LinkedIn", link: "https://linkedin.com/in/hishitha-rachuri" },
     { src: mail, alt: "Email", link: "https://mail.google.com/mail/?view=cm&fs=1&to=hishithrachuri@gmail.com" },
-    { src: Resume, alt: "Resume", link: "/Hishitha's_resume (2).pdf" }
 ];
 
 export default function Contact() {
     return (
-        <section className="section-container contact-section">
-            <h1>Contact</h1>
-            <p>Submit the contact form to get in touch!</p>
+        <section id="contact" className="section-container contact-section">
+            <h1>Let's Build Something Together</h1>
+            <p className="section-subtitle">
+                I'm open to full-time roles, freelance projects, and collaborations.
+                I typically reply within <strong>24 hours</strong>.
+            </p>
+
             <div className="contact-form">
                 <div className="input-row">
-                    <input placeholder="Enter your name" />
-                    <input type="email" placeholder="Enter your email" />
+                    <input placeholder="Your name" />
+                    <input type="email" placeholder="Your email" />
                 </div>
-
-                <textarea placeholder="Your message"></textarea>
-                <a href="mailto:yourname@example.com" class="talk-button">Let’s Talk</a>
+                <input placeholder="Subject (e.g., Job Opportunity, Project Inquiry)" />
+                <textarea placeholder="Tell me about your project or role..."></textarea>
+                <button className="talk-button">Send Message →</button>
             </div>
 
             <div className="contact-icons">
