@@ -64,7 +64,7 @@ body {
 @media (max-width: 768px) {
   .hamburger {
     display: block;
-    align-items: center /* show hamburger on mobile */
+    margin-left: auto /* show hamburger on mobile */
   }
 
   .nav-list {
