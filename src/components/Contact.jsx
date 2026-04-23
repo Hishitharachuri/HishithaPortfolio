@@ -14,7 +14,7 @@ export default function Contact() {
         <section id="contact" className="section-container contact-section">
             <h1>Let's Build Something Together</h1>
             <p className="section-subtitle">
-                I'm open to full-time roles, freelance projects, and collaborations.
+                I'm open to full-time roles and collaborations.
                 I typically reply within <strong>24 hours</strong>.
             </p>
 

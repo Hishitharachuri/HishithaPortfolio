@@ -52,7 +52,7 @@ export default function Home() {
                 {/* RIGHT SIDE: IMAGE */}
                 <img
                     className="work-image"
-                    src={src/assets/work_3.png}
+                    src={"src/assets/work_3.png"}
                     alt="Hishitha Rachuri - Full Stack Developer"
                 />
             </div>
