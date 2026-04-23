@@ -37,7 +37,8 @@ body {
   border: none;
   color: #f3f4f6;
   cursor: pointer;
-  display: none; /* hidden on desktop */
+  display: none; 
+  align-items: center/* hidden on desktop */
 }
 
 .nav-list {
@@ -62,7 +63,8 @@ body {
 /* Mobile view */
 @media (max-width: 768px) {
   .hamburger {
-    display: block; /* show hamburger on mobile */
+    display: block;
+    align-items: center /* show hamburger on mobile */
   }
 
   .nav-list {
