@@ -7,7 +7,7 @@ import Resume from "../assets/Resume.png"
 const contact = [
     { src: github, alt: "GitHub", link: "https://github.com/Hishitharachuri" },
     { src: linkedin, alt: "LinkedIn", link: "https://www.linkedin.com/in/hishitha-rachuri-3b3316231/" },
-    { src: mail, alt: "Email", link: "mailto:hishitharachuri@gmail.com" },
+    { src: mail, alt: "Email", link: "https://mail.google.com/mail/?view=cm&fs=1&to=hishithrachuri@gmail.com" },
     { src: Resume, alt: "Resume", link: "/Hishitha's_resume (2).pdf" }
 ];
 

@@ -20,6 +20,7 @@ body {
 .navbar {
   background-color: #1e293b;
   padding: 16px 32px;
+  display: flex;
 }
 
 .nav-list {
@@ -134,7 +135,9 @@ body {
 @media (max-width: 768px) {
 
   .hero-content,
-  .about-content {
+  .about-content 
+  .project-summary
+  .section-container{
     flex-direction: column;
     text-align: center;
   }
