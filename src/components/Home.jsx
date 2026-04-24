@@ -27,7 +27,7 @@ export default function Home() {
                     </h2>
 
                     <p className="hero-description">
-                        Full Stack Developer with <strong>3+ years</strong> of experience
+                        Full Stack Developer with <strong>2+ years</strong> of experience
                         designing and shipping scalable web applications. I've delivered
                         <strong> 15+ production features</strong>, optimized APIs to handle
                         <strong> 10K+ daily requests</strong>, and reduced frontend load
